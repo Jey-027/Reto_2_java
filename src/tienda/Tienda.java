@@ -53,9 +53,7 @@ public class Tienda {
                 //save = JOptionPane.showInputDialog("Ingrese una opcion: ");
                 //Scanner ent = new Scanner(System.in);
                 //System.out.println("enter option");
-                String save = ent.nextLine();
-                
-                
+                String save = ent.nextLine(); 
 
                 if (save.charAt(0) == '1') {
                     guardaDatos(save);
@@ -66,7 +64,6 @@ public class Tienda {
 
 
                 } else if (save.charAt(0) == '3') {
-                    //mostrarDatos();
                     break;
 
                 }
@@ -74,8 +71,6 @@ public class Tienda {
             }
 
         } catch (Exception e) {
-            //System.err.println("opcion incorrecta");
-            //pedirDatos();
 
         }
 
@@ -84,8 +79,6 @@ public class Tienda {
     public static void main(String[] args) {
 
         pedirDatos();
-        
-        //System.out.println(resultfinal);
 
     }
 
